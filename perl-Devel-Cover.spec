@@ -1,6 +1,6 @@
 Name:           perl-Devel-Cover
 Version:        1.03
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Code coverage metrics for Perl
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -83,6 +83,12 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.03-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.03-2
+- Mass rebuild 2013-12-27
+
 * Fri May 24 2013 Tom Callaway <spot@fedoraproject.org> - 1.03-1
 - update to 1.03
 
